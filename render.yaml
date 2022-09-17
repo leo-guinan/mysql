@@ -1,6 +1,7 @@
 services:
 - type: pserv
   name: mysql
+  region: ohio
   plan: standard
   env: docker
   disk:
